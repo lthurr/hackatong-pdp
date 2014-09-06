@@ -5,12 +5,12 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-    <name>PatitasDePerro</name>
+    <name>Patitas De Perros</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aplicación para Android de la Fundación Patitas de Perros.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="patitasdeperros@gmail.com" href="http://www.patitasdeperros.com/">
+        Fundación Patitas de Perros
     </author>
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.5.0" />
