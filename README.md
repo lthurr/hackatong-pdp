@@ -1,4 +1,0 @@
-hackatong-pdp
-=============
-
-Hackatong Patitas
