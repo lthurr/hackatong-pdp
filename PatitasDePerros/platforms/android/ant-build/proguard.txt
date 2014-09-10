@@ -1,3 +1,10 @@
-# view AndroidManifest.xml #generated:6
--keep class com.patitas.perro.PatitasDePerro { <init>(...); }
+# view AndroidManifest.xml #generated:17
+# view AndroidManifest.xml #generated:18
+-keep class com.facebook.LoginActivity { <init>(...); }
+
+# view res/layout/com_facebook_usersettingsfragment.xml #generated:48
+-keep class com.facebook.widget.LoginButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:10
+-keep class com.patitas.perros.PatitasDePerros { <init>(...); }
 
