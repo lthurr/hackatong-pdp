@@ -13,7 +13,7 @@
 
 <body>
     <div id="logo_container">
-        <img id="logo" src="img/logo.svg" onerror="this.src=img/logo.png" />
+        <img id="logo" src="img/logo.svg" onerror="this.src='img/logo.png'" />
     </div>
     <button id="login-btn" onclick="login()">Iniciar sesión con Facebook</button>
     <script type="text/javascript" src="cordova.js"></script>
@@ -36,7 +36,7 @@
                     alert(JSON.stringify(response))
                 });
         }
-        $('#logo_container').on('click', function(e) {
+        $('#logo_container').on('click', function (e) {
             $(document).transition('to', 'panel.html', 'slide');
             e.preventDefault();
         });
