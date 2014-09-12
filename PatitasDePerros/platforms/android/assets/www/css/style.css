@@ -48,8 +48,11 @@ body {
     margin-top: 5em;
 }
 
+.fix-center {
+    text-align: center;
+}
+
 #login-btn {
-    display: block;
     margin: 3em auto 0 auto;
     background: #3f65b7;
     border: 1px solid #172b4e;
@@ -60,7 +63,6 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
-    -moz-appearance: none;
     padding: .5em 1em;
     font-size: 100%;
     font-weight: bold;
@@ -103,7 +105,11 @@ body {
 
 .panel-option {
     padding: 1em;
+    background-color: #FFF;
     border-bottom: 1px solid #CCC;
+    display: block;
+    color: #333;
+    text-decoration: none;
     
 }
 
@@ -111,7 +117,7 @@ body {
     border: 0px;
 }
 
-.panel-option:hover, .panel-option:active {
+.panel-option:active {
     background-color: #EEE;
 }
 
@@ -160,4 +166,11 @@ body {
     color: white;
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     border-color: rgb(225, 170, 0)
+}
+
+/* FORMS */
+
+#info {
+    padding: 1em;
+    border: none;
 }

@@ -199,6 +199,7 @@
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/_where-is-www.txt \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/plugins \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/css \
+/home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/forms \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/cordova_plugins.js \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/phonegap \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/js \
@@ -216,6 +217,7 @@
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/plugins/com.phonegap.plugins.facebookconnect/www/phonegap/plugin/facebookConnectPlugin/facebookConnectPlugin.js \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/css/transition.min.css \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/css/style.css \
+/home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/forms/perro-perdido.html \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/phonegap/plugin \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/phonegap/plugin/facebookConnectPlugin \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/phonegap/plugin/facebookConnectPlugin/facebookConnectPlugin.js \

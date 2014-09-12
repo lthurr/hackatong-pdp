@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patitas de Perros</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="s-header">Datos del Animal</div>
+        <div class="s-body">
+            <fieldset id="info">
+                <h3>Datos del Animal</h3>
+                <!-- Nombre -->
+                <div>
+                    <label for="dog_name">Nombre</label>
+                    <input type="text" name="dog[name]" id="dog_name">
+                </div>
+                <!-- Tamaño de adulto -->
+                <div>
+                    <label for="dog_size">Tamaño de adulto</label>
+                    <select name="dog[size]" id="dog_size">
+                        <option value="" selected="selected"></option>
+                        <option value="Pequeño">Pequeño</option>
+                        <option value="Mediano">Mediano</option>
+                        <option value="Grande">Grande</option>
+                    </select>
+                </div>
+                <!-- Sexo -->
+                <div>
+                    <label for="dog_sex">Sexo</label>
+                    <select name="dog[sex]" class="input-small" id="dog_sex">
+                        <option value="" selected="selected"></option>
+                        <option value="Macho">Macho</option>
+                        <option value="Hembra">Hembra</option>
+                        <option value="Ambos">Ambos</option>
+                    </select>
+                </div>
+                <!-- Raza -->
+                <div>
+                    <label for="dog_breed_id">Raza</label>
+                    <select name="dog[breed_id]" class="breed input-small" id="dog_breed_id">
+                        <option value="116">Airdale Terrier</option>
+                        <option value="106">Akita Inu</option>
+                        <option value="2">Alano</option>
+                        <option value="3">Alaskan Malamute</option>
+                        <option value="4">American Staffordshire Terrier</option>
+                        <option value="1">American Water Spaniel</option>
+                        <option value="5">American Water Spaniel</option>
+                        <option value="7">Basset Azul de Gaseogne</option>
+                        <option value="8">Basset Hound</option>
+                        <option value="9">Basset leonado de Bretaña</option>
+                        <option value="10">Beagle</option>
+                        <option value="103">Bichón Frisé</option>
+                        <option value="12">Bichón Maltés</option>
+                        <option value="13">Bobtail</option>
+                        <option value="14">Border Collie</option>
+                        <option value="15">Boston Terrier</option>
+                        <option value="16">Boxer</option>
+                        <option value="112">Braco Alemán Kurzhaar</option>
+                        <option value="118">Bretón</option>
+                        <option value="17">Bull Terrier</option>
+                        <option value="18">Bulldog Americano</option>
+                        <option value="19">Bulldog Francés</option>
+                        <option value="20">Bulldog Inglés</option>
+                        <option value="21">Caniche</option>
+                        <option value="23">Chihuahua</option>
+                        <option value="25">Chow Chow</option>
+                        <option value="24">Cirneco del Etna</option>
+                        <option value="27">Cocker Spaniel</option>
+                        <option value="104">Collie</option>
+                        <option value="11">Collie barbudo</option>
+                        <option value="91">Dachshund (salchicha)</option>
+                        <option value="28">Dálmata</option>
+                        <option value="29">Dobermann</option>
+                        <option value="30">Dogo Alemán</option>
+                        <option value="31">Dogo Argentino</option>
+                        <option value="32">Dogo de Burdeos</option>
+                        <option value="117">Esquimal Americano</option>
+                        <option value="33">Finlandés</option>
+                        <option value="35">Fox Terrier</option>
+                        <option value="34">Fox Terrier de pelo liso</option>
+                        <option value="36">Foxhound Americano</option>
+                        <option value="37">Foxhound Inglés</option>
+                        <option value="120">Galgo</option>
+                        <option value="38">Galgo Afgano</option>
+                        <option value="39">Gigante de los Pirineos</option>
+                        <option value="40">Golden Retriever</option>
+                        <option value="41">Gos d'Atura</option>
+                        <option value="42">Gran Danés</option>
+                        <option value="119">Jack Russell Terrier</option>
+                        <option value="105">Jindo</option>
+                        <option value="46">Labrador Retriever</option>
+                        <option value="114">lahsa Apso</option>
+                        <option value="45">Laika Ruso-europeo</option>
+                        <option value="110">Maltés</option>
+                        <option value="47">Mastín del Pirineo</option>
+                        <option value="48">Mastin del Tibet</option>
+                        <option value="49">Mastín Español</option>
+                        <option value="111">Mastín Inglés</option>
+                        <option value="50">Mastín Napolitano</option>
+                        <option value="92" selected="selected">Mestizo</option>
+                        <option value="101">Ovejero Alemán</option>
+                        <option value="51">Pastor Alemán</option>
+                        <option value="52">Pastor Australiano</option>
+                        <option value="53">Pastor Belga</option>
+                        <option value="54">Pastor de Brie</option>
+                        <option value="55">Pastor de los Pirineos de Cara Rosa</option>
+                        <option value="6">Pastor Inglés</option>
+                        <option value="56">Pekinés</option>
+                        <option value="57">Perdiguero Chesapeake Bay</option>
+                        <option value="58">Perdiguero de Drentse</option>
+                        <option value="59">Perdiguero de Pelo lido</option>
+                        <option value="60">Perdiguero de pelo rizado</option>
+                        <option value="61">Perdiguero Portugués</option>
+                        <option value="107">Pila</option>
+                        <option value="102">Pinscher</option>
+                        <option value="62">Pitbull</option>
+                        <option value="63">Podenco Ibicenco</option>
+                        <option value="64">Podenco Portugués</option>
+                        <option value="93">Pointer</option>
+                        <option value="65">Presa canario</option>
+                        <option value="66">Presa Mallorquin</option>
+                        <option value="22">Pug/Carlino</option>
+                        <option value="67">Rottweiler</option>
+                        <option value="68">Rough Collie</option>
+                        <option value="69">Sabueso Español</option>
+                        <option value="70">Sabueso Hélenico</option>
+                        <option value="71">Sabueso Italiano</option>
+                        <option value="72">Sabueso Suizo</option>
+                        <option value="94">Salchicha</option>
+                        <option value="73">Samoyedo</option>
+                        <option value="74">San Bernardo</option>
+                        <option value="99">Schnauzer</option>
+                        <option value="75">Scottish Terrier</option>
+                        <option value="76">Setter Irlandés</option>
+                        <option value="77">Shar Pei</option>
+                        <option value="78">Shiba Inu</option>
+                        <option value="97">Shih Tzu</option>
+                        <option value="79">Siberiano Husky</option>
+                        <option value="115">Skye Terrier</option>
+                        <option value="80">Staffordshire Bull Terrier</option>
+                        <option value="81">Teckel</option>
+                        <option value="82">Terranova</option>
+                        <option value="83">Terrier Australiano</option>
+                        <option value="84">Terrier Escocés</option>
+                        <option value="85">Terrier Irlandés</option>
+                        <option value="86">Terrier Japonés</option>
+                        <option value="87">Terrier Negro Ruso</option>
+                        <option value="88">Terrier Norfolk</option>
+                        <option value="89">Terrier Norwich</option>
+                        <option value="95">Weimaraner</option>
+                        <option value="100">Whippet</option>
+                        <option value="90">Yorkshire Terrier</option>
+                    </select>
+                </div>
+                <!-- Cachorro o adulto -->
+                <div>
+                    <label for="dog_stage">Cachorro o Adulto</label>
+                    <select name="dog[stage]" class="input-small" id="dog_stage">
+                        <option value="" selected="selected"></option>
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Adulto">Adulto</option>
+                    </select>
+                </div>
+                <!-- Pelo -->
+                <div>
+                    <label for="dog_animal_info_hair">Pelo</label>
+                    <select name="dog[animal_info][hair]" class="input-small" id="dog_animal_info_hair">
+                        <option value="" selected="selected"></option>
+                        <option value="corto">Corto</option>
+                        <option value="largo">Largo</option>
+                    </select>
+                </div>
+                <!-- Color -->
+                <div>
+                    <div class="animal_color_form">
+                        <label>Color</label>
+                        <select class="animal_color_select" id="animal_color_1" name="animal_color[]">
+                            <option selected="selected" value=""></option>
+                            <option value="9">Apricot</option>
+                            <option value="11">Atigrado</option>
+                            <option value="3">Beige Dorado</option>
+                            <option value="1">Blanco</option>
+                            <option value="26">Canela</option>
+                            <option value="7">Fuego</option>
+                            <option value="5">Gris</option>
+                            <option value="27">Marrón</option>
+                            <option value="33">Naranja</option>
+                            <option value="2">Negro</option>
+                            <option value="32">Sal y Pimienta</option>
+                            <option value="8">Té</option>
+                            <option value="6">Tricolor</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Edad aprox -->
+                <div>
+                    <label for="dog_animal_info_age">Edad aprox</label>
+                    <input type="number" maxlength="4" name="dog[animal_info][age]" class="input-small" id="dog_animal_info_age">
+                    <select name="dog[animal_info][unit_age]" class="input-small" id="dog_animal_info_unit_age">
+                        <option value="" selected="selected"></option>
+                        <option value="días">días</option>
+                        <option value="meses">meses</option>
+                        <option value="años">años</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="dog_animal_info_sterilized">Castración</label>
+                    <ul class="radio_list">
+                        <li>
+                            <input name="dog[animal_info][sterilized]" type="radio" value="" id="dog_animal_info_sterilized_" checked="checked">&nbsp;
+                            <label for="dog_animal_info_sterilized_" class="radio inline">Sin datos</label>
+                        </li>
+                        <li>
+                            <input name="dog[animal_info][sterilized]" type="radio" value="castrado" id="dog_animal_info_sterilized_castrado">&nbsp;
+                            <label for="dog_animal_info_sterilized_castrado" class="radio inline">Castrado/a</label>
+                        </li>
+                        <li>
+                            <input name="dog[animal_info][sterilized]" type="radio" value="no-castrado" id="dog_animal_info_sterilized_no-castrado">&nbsp;
+                            <label for="dog_animal_info_sterilized_no-castrado" class="radio inline">No castrado/a</label>
+                        </li>
+                        <li>
+                            <input name="dog[animal_info][sterilized]" type="radio" value="con-compromiso" id="dog_animal_info_sterilized_con-compromiso">&nbsp;
+                            <label for="dog_animal_info_sterilized_con-compromiso" class="radio inline">Con compromiso</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    Camada de
+                    <input type="number" maxlength="2" name="dog[animal_info][litter]" class="input-xmini" id="dog_animal_info_litter">cachorros
+                </div>
+                <br>
+                <div>
+                    <label for="dog_animal_info_text_email">Breve reseña</label>
+                    <div>
+                        <textarea rows="4" cols="30" name="dog[animal_info][text_email]" class="input-large" id="dog_animal_info_text_email"></textarea>
+                    </div>
+                    <div id="char_limit_info"></div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="s-header encontrados">Encontrados</div>
+        <div class="s-body">
+            <div class="panel-option add">Agregar perro/a encontrado/a</div>
+            <div class="panel-option add">Agregar gato/a encontrado/a</div>
+        </div>
+    </div>
+    <div class="fix-margin"></div>
+</body>
+
+</html>
