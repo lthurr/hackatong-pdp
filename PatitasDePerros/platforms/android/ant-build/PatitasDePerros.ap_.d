@@ -227,7 +227,9 @@
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/js/facebookConnectPlugin.js \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/img/mas.svg \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/img/logo.svg \
+/home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/img/checkbox.svg \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/img/mas.png \
+/home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/img/checkbox.png \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/img/logo.png \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/res/icon \
 /home/mauguignard/hackatong-pdp/PatitasDePerros/platforms/android/assets/www/res/icon/android \
